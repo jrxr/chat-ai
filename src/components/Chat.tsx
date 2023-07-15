@@ -29,7 +29,7 @@ export function Chat() {
         </CardDescription>
       </CardHeader>
       <CardContent>
-        <ScrollArea className="h-[600px] w-full pr-4">
+        <ScrollArea className="h-[550px] w-full pr-4">
           {messages.map((message) => {
             return (
               <div
