@@ -21,7 +21,7 @@ export function Chat() {
   });
 
   return (
-    <Card className="w-[650px]">
+    <Card className="w-[650px] max-[600px]:w-[365px]">
       <CardHeader>
         <CardTitle>Chat AI</CardTitle>
         <CardDescription>
@@ -29,7 +29,7 @@ export function Chat() {
         </CardDescription>
       </CardHeader>
       <CardContent>
-        <ScrollArea className="h-[550px] w-full pr-4">
+        <ScrollArea className="h-[550px] max-[600px]:h-[400px] w-full pr-4">
           {messages.map((message) => {
             return (
               <div
